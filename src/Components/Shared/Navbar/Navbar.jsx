@@ -6,12 +6,14 @@ import React from "react";
 const Navbar = () => {
     const pathname = usePathname();
 
+  
+
   const pages = (
     <>
       <li>
         <Link
-          className={`link ${
-            pathname === "/" ? "text-[#eb6753]" : ""
+          className={` ${
+            pathname === "/" ? "text-[#eb6753]" : "text-gray-50"
           } no-underline`}
           href={"/"}
         >
@@ -20,8 +22,8 @@ const Navbar = () => {
       </li>
       <li className="dropdown dropdown-hover">
         <Link
-          className={`link ${
-            pathname === "/properties" ? "text-[#eb6753]" : ""
+          className={` ${
+            pathname === "/properties" ? "text-[#eb6753]" : "text-gray-50"
           } no-underline`}
           href={"/properties"}
         >
@@ -30,8 +32,8 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          className={`link ${
-            pathname === "/blog" ? "text-[#eb6753]" : ""
+          className={` ${
+            pathname === "/blog" ? "text-[#eb6753]" : "text-gray-50"
           } no-underline`}
           href={"/blogs"}
         >
@@ -40,8 +42,8 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          className={`link ${
-            pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden"
+          className={` ${
+            pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden text-gray-50"
           } no-underline`}
           href={"/"}
         >
@@ -74,7 +76,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="flex flex-col gap-6 menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               {pages}
             </ul>
@@ -84,13 +86,14 @@ const Navbar = () => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{pages}</ul>
+          <ul className="flex items-center gap-6 menu-horizontal px-1">{pages}</ul>
         </div>
         <div className="navbar-end">
           <button className="px-5 border-2 border-[#eb6753] md:border-none md:hover:border-2  md:hover:border-[#eb6753] rounded-full text-sm hover:bg-[#eb6753]  md:bg-none py-2 text-gray-50 ">Login/Register</button>
           <button className="px-5 py-2 hidden md:block rounded-full ml-2 text-sm hover:border-[#eb6753] text-gray-50 border-2 border-gray-200 hover:bg-[#eb6753]">
             Add Property
           </button>
+          
         </div>
       </div>
     </div>
