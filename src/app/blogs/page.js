@@ -10,7 +10,7 @@ const blogs = async() => {
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 ml-36">
                 <div className="col-span-2">
                     Blog cards
-                    <BlogCard/>
+                    <BlogCard blogs={blogs} />
                 </div>
                 <div className="">
                     Featured Blogs
