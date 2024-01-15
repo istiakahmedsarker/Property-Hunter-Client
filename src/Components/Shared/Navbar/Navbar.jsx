@@ -6,11 +6,13 @@ import React from "react";
 const Navbar = () => {
     const pathname = usePathname();
 
+  
+
   const pages = (
     <>
       <li>
         <Link
-          className={`link ${
+          className={` ${
             pathname === "/" ? "text-[#eb6753]" : ""
           } no-underline`}
           href={"/"}
@@ -20,7 +22,7 @@ const Navbar = () => {
       </li>
       <li className="dropdown dropdown-hover">
         <Link
-          className={`link ${
+          className={` ${
             pathname === "/properties" ? "text-[#eb6753]" : ""
           } no-underline`}
           href={"/properties"}
@@ -30,7 +32,7 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          className={`link ${
+          className={` ${
             pathname === "/blog" ? "text-[#eb6753]" : ""
           } no-underline`}
           href={"/blogs"}
@@ -40,7 +42,7 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          className={`link ${
+          className={` ${
             pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden"
           } no-underline`}
           href={"/"}
@@ -91,6 +93,7 @@ const Navbar = () => {
           <button className="px-5 py-2 hidden md:block rounded-full ml-2 text-sm hover:border-[#eb6753] text-gray-50 border-2 border-gray-200 hover:bg-[#eb6753]">
             Add Property
           </button>
+          
         </div>
       </div>
     </div>
