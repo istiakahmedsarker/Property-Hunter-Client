@@ -13,7 +13,7 @@ const Navbar = () => {
       <li>
         <Link
           className={` ${
-            pathname === "/" ? "text-[#eb6753]" : ""
+            pathname === "/" ? "text-[#eb6753]" : "text-gray-50"
           } no-underline`}
           href={"/"}
         >
@@ -23,7 +23,7 @@ const Navbar = () => {
       <li className="dropdown dropdown-hover">
         <Link
           className={` ${
-            pathname === "/properties" ? "text-[#eb6753]" : ""
+            pathname === "/properties" ? "text-[#eb6753]" : "text-gray-50"
           } no-underline`}
           href={"/properties"}
         >
@@ -33,7 +33,7 @@ const Navbar = () => {
       <li>
         <Link
           className={` ${
-            pathname === "/blog" ? "text-[#eb6753]" : ""
+            pathname === "/blog" ? "text-[#eb6753]" : "text-gray-50"
           } no-underline`}
           href={"/blogs"}
         >
@@ -43,7 +43,7 @@ const Navbar = () => {
       <li>
         <Link
           className={` ${
-            pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden"
+            pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden text-gray-50"
           } no-underline`}
           href={"/"}
         >
@@ -76,7 +76,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="flex flex-col gap-6 menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               {pages}
             </ul>
@@ -86,7 +86,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{pages}</ul>
+          <ul className="flex items-center gap-6 menu-horizontal px-1">{pages}</ul>
         </div>
         <div className="navbar-end">
           <button className="px-5 border-2 border-[#eb6753] md:border-none md:hover:border-2  md:hover:border-[#eb6753] rounded-full text-sm hover:bg-[#eb6753]  md:bg-none py-2 text-gray-50 ">Login/Register</button>
