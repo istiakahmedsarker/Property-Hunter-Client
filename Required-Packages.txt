@@ -1,2 +1,2 @@
 npm i -D daisyui@latest
-
+npm install react-icons --save
