@@ -1,2 +1,5 @@
 npm i -D daisyui@latest
+npm i json-server
+npm i react-hot-toast
+npm install axios
 
