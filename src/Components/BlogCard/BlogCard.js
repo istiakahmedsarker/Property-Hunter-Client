@@ -1,13 +1,14 @@
 import Link from 'next/link';
 import React from 'react';
 
-const BlogCard = ({blogs}) => {
+const BlogCard = ({blog}) => {
 
-    const {title,description,id,img,shortDescription} = blogs;
+    const {title,description,id,img,shortDescription} = blog;
+    // console.log(blog)
     return (
         <div>
             {
-                <div key={id} className="card bg-base-100 shadow-xl w-['70%'] my-5 mx-auto">
+                <div key={id} className="card bg-base-100 shadow-xl my-5 mx-auto w-96">
                         <div className="card-body">
                             <h2 className="card-title">{title}</h2>
                             <p>{shortDescription}</p>

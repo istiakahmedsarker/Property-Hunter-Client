@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import React from "react";
 
 const Navbar = () => {
-    const pathname = usePathname();
+  const pathname = usePathname();
 
   
 
@@ -12,9 +12,14 @@ const Navbar = () => {
     <>
       <li>
         <Link
+<<<<<<< HEAD
           className={` ${
             pathname === "/" ? "text-[#eb6753]" : "text-gray-700"
           } no-underline`}
+=======
+          className={`link ${pathname === "/" ? "text-[#eb6753]" : ""
+            } no-underline`}
+>>>>>>> 3d89d4a856715454a83de9978e8cdce77fea8f70
           href={"/"}
         >
           Home
@@ -22,9 +27,14 @@ const Navbar = () => {
       </li>
       <li className="dropdown dropdown-hover">
         <Link
+<<<<<<< HEAD
           className={` ${
             pathname === "/properties" ? "text-[#eb6753]" : "text-gray-700"
           } no-underline`}
+=======
+          className={`link ${pathname === "/properties" ? "text-[#eb6753]" : ""
+            } no-underline`}
+>>>>>>> 3d89d4a856715454a83de9978e8cdce77fea8f70
           href={"/properties"}
         >
           Properties
@@ -32,30 +42,47 @@ const Navbar = () => {
       </li>
       <li>
         <Link
+<<<<<<< HEAD
           className={` ${
             pathname === "/blog" ? "text-[#eb6753]" : "text-gray-700"
           } no-underline`}
+=======
+          className={`link ${pathname === "/blog" ? "text-[#eb6753]" : ""
+            } no-underline`}
+>>>>>>> 3d89d4a856715454a83de9978e8cdce77fea8f70
           href={"/blogs"}
         >
-         Blog
+          Blog
         </Link>
       </li>
       <li>
         <Link
+<<<<<<< HEAD
           className={` ${
             pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden text-gray-700"
           } no-underline`}
+=======
+          className={`link ${pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden"
+            } no-underline`}
+>>>>>>> 3d89d4a856715454a83de9978e8cdce77fea8f70
           href={"/"}
         >
-         Add Property
+          Add Property
         </Link>
       </li>
     </>
   );
 
   return (
+<<<<<<< HEAD
     <div>
       <div className="navbar py-4 bg-gray-50 text-gray-700">
+=======
+    <div data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500" >
+      <div className="navbar py-4 bg-[#10141d] text-gray-50">
+>>>>>>> 3d89d4a856715454a83de9978e8cdce77fea8f70
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

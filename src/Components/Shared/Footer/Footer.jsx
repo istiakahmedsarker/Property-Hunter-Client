@@ -12,7 +12,7 @@ const Footer = () => {
                                     {/* <svg xmlns="" viewBox="0 0 32 32" fill="currentColor" className="flex-shrink-0 w-5 h-5 rounded-full text-white">
                                         
                                     </svg> */}
-                                    <img  className=" mix-blend" src="https://i.ibb.co/CJrmqqw/Screenshot-2024-01-15-161908-removebg-preview.png" alt="" />
+                                    <img  className="mix-blend" src="https://i.ibb.co/CJrmqqw/Screenshot-2024-01-15-161908-removebg-preview.png" alt="" />
                                 </div>
                                 <span className="self-center text-2xl font-semibold text-white hover:text-[#eb6753]">Property Hunter</span>
                             </a>
