@@ -4,15 +4,14 @@ import { usePathname } from "next/navigation";
 import React from "react";
 
 const Navbar = () => {
-    const pathname = usePathname();
+  const pathname = usePathname();
 
   const pages = (
     <>
       <li>
         <Link
-          className={`link ${
-            pathname === "/" ? "text-[#eb6753]" : ""
-          } no-underline`}
+          className={`link ${pathname === "/" ? "text-[#eb6753]" : ""
+            } no-underline`}
           href={"/"}
         >
           Home
@@ -20,9 +19,8 @@ const Navbar = () => {
       </li>
       <li className="dropdown dropdown-hover">
         <Link
-          className={`link ${
-            pathname === "/properties" ? "text-[#eb6753]" : ""
-          } no-underline`}
+          className={`link ${pathname === "/properties" ? "text-[#eb6753]" : ""
+            } no-underline`}
           href={"/properties"}
         >
           Properties
@@ -30,29 +28,29 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          className={`link ${
-            pathname === "/blog" ? "text-[#eb6753]" : ""
-          } no-underline`}
+          className={`link ${pathname === "/blog" ? "text-[#eb6753]" : ""
+            } no-underline`}
           href={"/blogs"}
         >
-         Blog
+          Blog
         </Link>
       </li>
       <li>
         <Link
-          className={`link ${
-            pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden"
-          } no-underline`}
+          className={`link ${pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden"
+            } no-underline`}
           href={"/"}
         >
-         Add Property
+          Add Property
         </Link>
       </li>
     </>
   );
 
   return (
-    <div>
+    <div data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500" >
       <div className="navbar py-4 bg-[#10141d] text-gray-50">
         <div className="navbar-start">
           <div className="dropdown">
