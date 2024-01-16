@@ -4,6 +4,7 @@ import Link from 'next/link';
 import getAllCard from '../../../lib/getAllCard';
 import { useEffect, useState } from 'react';
 import { CiSearch } from 'react-icons/ci';
+import PropertiesCard from '@/Components/PropertiesCard/PropertiesCard';
 
 export default function BuildingCard({ initialCards = [] }) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -137,21 +138,14 @@ export default function BuildingCard({ initialCards = [] }) {
           </div>
         </div>
         <div className="col-span-9">
-          <h4 className="text-xl font-semibold">
-            {' '}
-            Show for All Properties -{filteredCards.length}
-          </h4>
+          <div>
+            <h4 className="text-xl font-semibold">
+              Show for All Properties :{filteredCards.length}
+            </h4>
+          </div>
           <div className="grid lg:grid-cols-2 gap-5 lg:px-5">
             {filteredCards.map(card => (
-              <div className="px-4 py-5 rounded-lg shadow-lg" key={card.id}>
-                <h3 className="font-bold">{card.title}</h3>
-                <h3>{card.body}</h3>
-                <Link href={`/cards/${card.id}`}>
-                  <button className="px-4 py-2 bg-blue-300 rounded-lg">
-                    See Details
-                  </button>
-                </Link>
-              </div>
+              <PropertiesCard key={card.id} card={card}></PropertiesCard>
             ))}
           </div>
         </div>
