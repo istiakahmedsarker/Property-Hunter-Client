@@ -10,8 +10,9 @@ const Navbar = () => {
     <>
       <li>
         <Link
-          className={`link ${pathname === "/" ? "text-[#eb6753]" : ""
-            } no-underline`}
+          className={` ${
+            pathname === "/" ? "text-[#eb6753]" : "text-gray-700"
+          } no-underline`}
           href={"/"}
         >
           Home
@@ -19,8 +20,9 @@ const Navbar = () => {
       </li>
       <li className="dropdown dropdown-hover">
         <Link
-          className={`link ${pathname === "/properties" ? "text-[#eb6753]" : ""
-            } no-underline`}
+          className={` ${
+            pathname === "/properties" ? "text-[#eb6753]" : "text-gray-700"
+          } no-underline`}
           href={"/properties"}
         >
           Properties
@@ -28,6 +30,9 @@ const Navbar = () => {
       </li>
       <li>
         <Link
+          className={` ${
+            pathname === "/blog" ? "text-[#eb6753]" : "text-gray-700"
+          } no-underline`}
           className={`link ${pathname === "/blog" ? "text-[#eb6753]" : ""
             } no-underline`}
           href={"/blogs"}
@@ -37,8 +42,9 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          className={`link ${pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden"
-            } no-underline`}
+          className={` ${
+            pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden text-gray-700"
+          } no-underline`}
           href={"/"}
         >
           Add Property
@@ -48,10 +54,8 @@ const Navbar = () => {
   );
 
   return (
-    <div data-aos="fade-down"
-      data-aos-easing="linear"
-      data-aos-duration="1500" >
-      <div className="navbar py-4 bg-[#10141d] text-gray-50">
+    <div>
+      <div className="navbar py-4 bg-gray-50 text-gray-700">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
