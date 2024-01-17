@@ -1,6 +1,7 @@
 [
   {
     "name": "Luxury Villa Retreat",
+    "propertiesType": "villa",
     "images": [
       "https://i.ibb.co/qpc2m6q/villa-1-1.jpg",
       "https://i.ibb.co/Dff0Zh6/villa-1-2.jpg",
@@ -21,12 +22,14 @@
       "city": "California",
       "country": "USA"
     },
+    "propertiesSize": "1500 sq Ft",
     "status": "For Sale",
     "yearOfBuild": 2018,
     "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
     "name": "Seaside Paradise Villa",
+    "propertiesType": "villa",
     "images": [
       "https://i.ibb.co/7Jr3cGg/villa-2-1.jpg",
       "https://i.ibb.co/bPwmDd6/villa-2-2.jpg",
@@ -47,12 +50,14 @@
       "city": "Beachtown",
       "country": "USA"
     },
+    "propertiesSize": "1200 sq Ft",
     "status": "For Sale",
     "yearOfBuild": 2018,
     "description": "A stunning villa with breathtaking views and luxurious amenities with 4-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
     "name": "Golden Villa Retreat",
+    "propertiesType": "villa",
     "images": [
       "https://i.ibb.co/0mcyKFd/villa-3-1.jpg",
       "https://i.ibb.co/SmKhWxv/villa-3-2.jpg",
@@ -73,12 +78,14 @@
       "city": "Oregon",
       "country": "New York"
     },
+    "propertiesSize": "1300 sq Ft",
     "status": "For Sale",
     "yearOfBuild": 2018,
     "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
     "name": "Majestic Villa Retreat",
+    "propertiesType": "villa",
     "images": [
       "https://i.ibb.co/fYQ5Gs4/villa-4-1.jpg",
       "https://i.ibb.co/Zmt3Xx8/villa-4-2.jpg",
@@ -99,12 +106,14 @@
       "city": "Florida",
       "country": "USA"
     },
+    "propertiesSize": "1200 sq Ft",
     "status": "For Sale",
     "yearOfBuild": 2018,
     "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
     "name": "Eternal Villa Retreat",
+    "propertiesType": "villa",
     "images": [
       "https://i.ibb.co/b2j8fpB/villa-5-1.jpg",
       "https://i.ibb.co/vJNpLc3/villa-5-2.jpg",
@@ -125,12 +134,14 @@
       "city": "Colorado",
       "country": "USA"
     },
-    "status": "For Sale",
+    "propertiesSize": "1600 sq Ft",
+    "status": "For Rent",
     "yearOfBuild": 2018,
     "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
     "name": "Eternal Villa Retreat",
+    "propertiesType": "villa",
     "images": [
       "https://i.ibb.co/Wv0Bncb/villa-6-1.jpg",
       "https://i.ibb.co/g4jP40y/villa-6-2.jpg",
@@ -151,11 +162,13 @@
       "city": "Texas",
       "country": "USA"
     },
-    "status": "For Sale",
+    "propertiesSize": "1300 sq Ft",
+    "status": "For Rent",
     "description": "A stunning villa with breathtaking views and luxurious amenities with 3-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
     "name": "Mountain Villa Retreat",
+    "propertiesType": "villa",
     "images": [
       "https://i.ibb.co/Ss2gpjP/villa-7-1.jpg",
       "https://i.ibb.co/L6FtQ5q/villa-7-2.jpg",
@@ -176,12 +189,14 @@
       "city": "Oregon",
       "country": "USA"
     },
-    "status": "For Sale",
+    "propertiesSize": "1100 sq Ft",
+    "status": "For Rent",
     "yearOfBuild": 2018,
     "description": "A stunning villa with breathtaking views and luxurious amenities with 4-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
     "name": "Royal Villa Retreat",
+    "propertiesType": "villa",
     "images": [
       "https://i.ibb.co/RcmQ9wG/villa-8-1.jpg",
       "https://i.ibb.co/4R0TQxd/villa-8-2.jpg",
@@ -202,6 +217,7 @@
       "city": " Arizona",
       "country": "USA"
     },
+    "propertiesSize": "1150 sq Ft",
     "status": "For Sale",
     "yearOfBuild": 2018,
     "description": "A stunning villa with breathtaking views and luxurious amenities with 4-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
