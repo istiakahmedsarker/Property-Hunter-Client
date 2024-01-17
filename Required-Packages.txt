@@ -4,3 +4,5 @@ npm i react-hot-toast
 npm install axios
 npm install react-icons --save
 npm install --save aos@next
+npm i swiper
+npm install firebase

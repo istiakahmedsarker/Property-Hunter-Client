@@ -16,12 +16,14 @@
     "aos": "^3.0.0-beta.6",
 >>>>>>> 4f478db01db81322fb6a386666ca353ffb7c121a
     "axios": "^1.6.5",
+    "firebase": "^10.7.1",
     "json-server": "^1.0.0-alpha.21",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
-    "react-icons": "^5.0.1"
+    "react-icons": "^5.0.1",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

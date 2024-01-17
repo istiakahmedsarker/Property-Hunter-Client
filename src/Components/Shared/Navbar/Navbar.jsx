@@ -1,12 +1,10 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
 const Navbar = () => {
   const pathname = usePathname();
-
-  
 
   const pages = (
     <>
@@ -30,7 +28,7 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          className={`link ${pathname === "/blogs" ? "text-[#eb6753]" : ""
+          className={`link ${pathname === "/blog" ? "text-[#eb6753]" : ""
             } no-underline`}
           href={"/blogs"}
         >
@@ -39,7 +37,7 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          className={`link ${pathname === "/addProperty" ? "text-[#eb6753]" : "inline-block md:hidden"
+          className={`link ${pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden"
             } no-underline`}
           href={"/"}
         >
@@ -87,11 +85,10 @@ const Navbar = () => {
           <ul className="flex items-center gap-6 menu-horizontal px-1">{pages}</ul>
         </div>
         <div className="navbar-end">
-          <button className="px-5 border-2 border-[#eb6753] md:border-none md:hover:border-2  md:hover:border-[#eb6753] rounded-full text-sm hover:bg-[#eb6753]  md:bg-none py-2 text-gray-50 ">Login/Register</button>
-          <button className="px-5 py-2 hidden md:block rounded-full ml-2 text-sm hover:border-[#eb6753] text-gray-50 border-2 border-gray-200 hover:bg-[#eb6753]">
+          <button className="px-5 border-2 border-[#eb6753] md:border-none md:hover:border-2  md:hover:border-[#eb6753] rounded-full text-sm hover:bg-[#eb6753]  md:bg-none py-2 text-gray-700 hover:text-gray-100">Login/Register</button>
+          <button className="px-5 py-2 hidden md:block rounded-full ml-2 text-sm hover:border-[#eb6753] text-gray-700 hover:text-gray-100 border-2 border-gray-700 hover:bg-[#eb6753]">
             Add Property
           </button>
-          
         </div>
       </div>
     </div>
