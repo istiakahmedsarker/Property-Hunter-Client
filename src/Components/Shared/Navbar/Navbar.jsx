@@ -1,12 +1,10 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
 const Navbar = () => {
   const pathname = usePathname();
-
-  
 
   const pages = (
     <>
@@ -39,7 +37,7 @@ const Navbar = () => {
             } no-underline`}
           href={"/blogs"}
         >
-          Blog
+          Blogs
         </Link>
       </li>
       <li>
@@ -95,7 +93,6 @@ const Navbar = () => {
           <button className="px-5 py-2 hidden md:block rounded-full ml-2 text-sm hover:border-[#eb6753] text-gray-700 hover:text-gray-100 border-2 border-gray-700 hover:bg-[#eb6753]">
             Add Property
           </button>
-          
         </div>
       </div>
     </div>
