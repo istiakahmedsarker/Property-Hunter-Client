@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -12,29 +12,56 @@ const Banner = () => {
     }, []);
 
 
-    const homeStyle = {
-        position: 'relative',
-        top: '-1000px',
+    const [isHovered, setIsHovered] = useState(false);
+
+    const handleMouseEnter = () => {
+        setIsHovered(true);
     };
 
-    const textStyle = {
-        position: 'relative',
-        top: '-1800px',
-    }
+    const handleMouseLeave = () => {
+        setIsHovered(false);
+    };
+
+    const glowStyles = {
+        transition: '0.3s',
+        textShadow: isHovered ? '0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff' : 'none',
+        
+    };
+
+
+
+
+
+
 
     return (
-        <div className="main">
-            <img data-aos="fade-down"
+        <div>
+            <div className="hero min-h-screen" data-aos="fade-down"
                 data-aos-easing="linear"
-                data-aos-duration="1500" src="https://i.ibb.co/gRHfWXv/sun-sunlight-bright-outdoor-sky.jpg" alt="" />
-            <img data-aos="fade-up"
-                data-aos-easing="linear"
-                data-aos-duration="1500" style={homeStyle} src="https://i.ibb.co/vdrh6LP/pexels-binyamin-mellish-106399-removebg.png" alt="" />
+                data-aos-duration="1500" style={{ backgroundImage: 'url(https://i.ibb.co/gRHfWXv/sun-sunlight-bright-outdoor-sky.jpg)' }}>
+                <img
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500" className="w-fit mx-auto    shadow-md lg:-mt-40" src="https://i.ibb.co/vdrh6LP/pexels-binyamin-mellish-106399-removebg.png" alt="" />
 
-            <div style={textStyle} className='text-center text-9xl '>
-                <h2 data-aos="zoom-in-down" className='text-white font-mono ' >Property</h2>
-                <h1 data-aos="zoom-out-up" className='text-[#eb6753]'>H u n t e r</h1>
+                <div className=""></div>
+                <div className="hero-content text-center ">
+
+                    <div className="-mt-96">
+
+                        <h2 data-aos="zoom-in-down" className='text-center text-8xl text-white font-mono ' >Property</h2>
+                        <div onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
+                            style={glowStyles}>
+                            <h1 data-aos="zoom-out-up" className='text-[#eb6753] text-center text-9xl hover:'>H u n t e r</h1>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
+
+
         </div>
     );
 };
