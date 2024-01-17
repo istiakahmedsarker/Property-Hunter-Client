@@ -30,16 +30,16 @@ const Navbar = () => {
       </li>
       <li>
         <Link
-          className={`link ${pathname === "/blog" ? "text-[#eb6753]" : ""
+          className={`link ${pathname === "/blogs" ? "text-[#eb6753]" : ""
             } no-underline`}
           href={"/blogs"}
         >
-          Blog
+          Blogs
         </Link>
       </li>
       <li>
         <Link
-          className={`link ${pathname === "/blog" ? "text-[#eb6753]" : "inline-block md:hidden"
+          className={`link ${pathname === "/addProperty" ? "text-[#eb6753]" : "inline-block md:hidden"
             } no-underline`}
           href={"/"}
         >
