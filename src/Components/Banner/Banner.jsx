@@ -17,8 +17,6 @@ const Banner = () => {
         top: '-1000px',
     };
 
-   
-
     const textStyle = {
         position: 'relative',
         top: '-1800px',

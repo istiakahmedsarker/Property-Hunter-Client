@@ -9,20 +9,21 @@
     "price": 1200000,
     "owner": {
       "name": "John Doe",
-      "address": "123 Main Street, Cityville, Countryland"
+      "address": "123 Main Street, California, USA"
     },
     "features": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
     "longitude": -74.0059,
     "latitude": 40.7128,
     "reviews": 4.5,
     "bedroom": 5,
-    "bathroom": 4,
+    "bathroom": 3,
     "location": {
-      "city": "Cityville",
-      "country": "Countryland"
+      "city": "California",
+      "country": "USA"
     },
     "status": "For Sale",
-    "description": "A stunning villa with breathtaking views and luxurious amenities."
+    "yearOfBuild": 2018,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
     "name": "Seaside Paradise Villa",
@@ -34,7 +35,7 @@
     "price": 950000,
     "owner": {
       "name": "Jane Smith",
-      "address": "456 Ocean Drive, Beachtown, Islandia"
+      "address": "456 Ocean Drive, Beachtown, USA"
     },
     "features": ["Private Beach Access", "Sun Deck", "Oceanfront Views"],
     "longitude": -80.1917902,
@@ -44,13 +45,14 @@
     "bathroom": 3,
     "location": {
       "city": "Beachtown",
-      "country": "Islandia"
+      "country": "USA"
     },
     "status": "For Sale",
-    "description": "A charming villa by the sea, perfect for beach lovers and relaxation."
+    "yearOfBuild": 2018,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 4-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
-    "name": "Luxury Villa Retreat",
+    "name": "Golden Villa Retreat",
     "images": [
       "https://i.ibb.co/0mcyKFd/villa-3-1.jpg",
       "https://i.ibb.co/SmKhWxv/villa-3-2.jpg",
@@ -59,7 +61,7 @@
     "price": 1200000,
     "owner": {
       "name": "John Doe",
-      "address": "123 Main Street, Cityville, Countryland"
+      "address": "123 Main Street, Oregon, New York"
     },
     "features": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
     "longitude": -74.0059,
@@ -68,14 +70,15 @@
     "bedroom": 5,
     "bathroom": 4,
     "location": {
-      "city": "Cityville",
-      "country": "Countryland"
+      "city": "Oregon",
+      "country": "New York"
     },
     "status": "For Sale",
-    "description": "A stunning villa with breathtaking views and luxurious amenities."
+    "yearOfBuild": 2018,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
-    "name": "Luxury Villa Retreat",
+    "name": "Majestic Villa Retreat",
     "images": [
       "https://i.ibb.co/fYQ5Gs4/villa-4-1.jpg",
       "https://i.ibb.co/Zmt3Xx8/villa-4-2.jpg",
@@ -84,7 +87,7 @@
     "price": 1200000,
     "owner": {
       "name": "John Doe",
-      "address": "123 Main Street, Cityville, Countryland"
+      "address": "123 Main Street, Florida, USA"
     },
     "features": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
     "longitude": -74.0059,
@@ -93,14 +96,15 @@
     "bedroom": 5,
     "bathroom": 4,
     "location": {
-      "city": "Cityville",
-      "country": "Countryland"
+      "city": "Florida",
+      "country": "USA"
     },
     "status": "For Sale",
-    "description": "A stunning villa with breathtaking views and luxurious amenities."
+    "yearOfBuild": 2018,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
-    "name": "Luxury Villa Retreat",
+    "name": "Eternal Villa Retreat",
     "images": [
       "https://i.ibb.co/b2j8fpB/villa-5-1.jpg",
       "https://i.ibb.co/vJNpLc3/villa-5-2.jpg",
@@ -109,7 +113,7 @@
     "price": 1200000,
     "owner": {
       "name": "John Doe",
-      "address": "123 Main Street, Cityville, Countryland"
+      "address": "123 Main Street, Colorado, USA"
     },
     "features": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
     "longitude": -74.0059,
@@ -118,14 +122,15 @@
     "bedroom": 5,
     "bathroom": 4,
     "location": {
-      "city": "Cityville",
-      "country": "Countryland"
+      "city": "Colorado",
+      "country": "USA"
     },
     "status": "For Sale",
-    "description": "A stunning villa with breathtaking views and luxurious amenities."
+    "yearOfBuild": 2018,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
-    "name": "Luxury Villa Retreat",
+    "name": "Eternal Villa Retreat",
     "images": [
       "https://i.ibb.co/Wv0Bncb/villa-6-1.jpg",
       "https://i.ibb.co/g4jP40y/villa-6-2.jpg",
@@ -134,23 +139,23 @@
     "price": 1200000,
     "owner": {
       "name": "John Doe",
-      "address": "123 Main Street, Cityville, Countryland"
+      "address": "123 Main Street, Texas, USA"
     },
     "features": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
     "longitude": -74.0059,
     "latitude": 40.7128,
     "reviews": 4.5,
-    "bedroom": 5,
-    "bathroom": 4,
+    "bedroom": 3,
+    "bathroom": 3,
     "location": {
-      "city": "Cityville",
-      "country": "Countryland"
+      "city": "Texas",
+      "country": "USA"
     },
     "status": "For Sale",
-    "description": "A stunning villa with breathtaking views and luxurious amenities."
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 3-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
-    "name": "Luxury Villa Retreat",
+    "name": "Mountain Villa Retreat",
     "images": [
       "https://i.ibb.co/Ss2gpjP/villa-7-1.jpg",
       "https://i.ibb.co/L6FtQ5q/villa-7-2.jpg",
@@ -159,23 +164,24 @@
     "price": 1200000,
     "owner": {
       "name": "John Doe",
-      "address": "123 Main Street, Cityville, Countryland"
+      "address": "123 Main Street, Oregon, USA"
     },
     "features": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
     "longitude": -74.0059,
     "latitude": 40.7128,
     "reviews": 4.5,
-    "bedroom": 5,
-    "bathroom": 4,
+    "bedroom": 4,
+    "bathroom": 3,
     "location": {
-      "city": "Cityville",
-      "country": "Countryland"
+      "city": "Oregon",
+      "country": "USA"
     },
     "status": "For Sale",
-    "description": "A stunning villa with breathtaking views and luxurious amenities."
+    "yearOfBuild": 2018,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 4-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   },
   {
-    "name": "Luxury Villa Retreat",
+    "name": "Royal Villa Retreat",
     "images": [
       "https://i.ibb.co/RcmQ9wG/villa-8-1.jpg",
       "https://i.ibb.co/4R0TQxd/villa-8-2.jpg",
@@ -184,19 +190,20 @@
     "price": 1200000,
     "owner": {
       "name": "John Doe",
-      "address": "123 Main Street, Cityville, Countryland"
+      "address": "123 Main Street,  Arizona, USA"
     },
     "features": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
     "longitude": -74.0059,
     "latitude": 40.7128,
     "reviews": 4.5,
-    "bedroom": 5,
-    "bathroom": 4,
+    "bedroom": 4,
+    "bathroom": 3,
     "location": {
-      "city": "Cityville",
-      "country": "Countryland"
+      "city": " Arizona",
+      "country": "USA"
     },
     "status": "For Sale",
-    "description": "A stunning villa with breathtaking views and luxurious amenities."
+    "yearOfBuild": 2018,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 4-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar."
   }
 ]

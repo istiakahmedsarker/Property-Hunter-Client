@@ -10,7 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "aos": "^2.3.4",
+=======
+    "aos": "^3.0.0-beta.6",
+>>>>>>> 4f478db01db81322fb6a386666ca353ffb7c121a
     "axios": "^1.6.5",
     "json-server": "^1.0.0-alpha.21",
     "next": "14.0.4",
