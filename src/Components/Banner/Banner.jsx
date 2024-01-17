@@ -36,16 +36,9 @@ const Banner = () => {
 
     return (
         <div>
-
-
             <div className="hero min-h-screen" data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500" style={{ backgroundImage: 'url(https://i.ibb.co/gRHfWXv/sun-sunlight-bright-outdoor-sky.jpg)' }}>
-
-
-
-
-
                 <img
                     data-aos="fade-up"
                     data-aos-easing="linear"
