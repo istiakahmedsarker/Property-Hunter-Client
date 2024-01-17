@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/Components/Shared/Navbar/Navbar'
 import Footer from '@/Components/Shared/Footer/Footer'
-import Banner from '@/Components/Banner/Banner'
+
 
 
 
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         {children}
-        <Banner></Banner>
+        
 
         <Footer></Footer>
         </body>

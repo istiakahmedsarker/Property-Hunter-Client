@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
@@ -25,18 +25,19 @@ const Banner = () => {
     const glowStyles = {
         transition: '0.3s',
         textShadow: isHovered ? '0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff' : 'none',
-        
+
     };
 
     return (
         <div>
-            <div className="hero min-h-screen" data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500" style={{ backgroundImage: 'url(https://i.ibb.co/gRHfWXv/sun-sunlight-bright-outdoor-sky.jpg)' }}>
+            <div className="hero min-h-screen"
+                 data-aos="zoom-out-down"
+                style={{ backgroundImage: 'url(https://i.ibb.co/gRHfWXv/sun-sunlight-bright-outdoor-sky.jpg)' }}>
                 <img
                     data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="1500" className="w-fit mx-auto    shadow-md lg:-mt-40" src="https://i.ibb.co/vdrh6LP/pexels-binyamin-mellish-106399-removebg.png" alt="" />
+                    data-aos-duration="1500"
+                    className="w-fit mx-auto shadow-md" src="https://i.ibb.co/vdrh6LP/pexels-binyamin-mellish-106399-removebg.png" alt="" />
 
                 <div className=""></div>
                 <div className="hero-content text-center ">
