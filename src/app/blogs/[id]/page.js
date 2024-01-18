@@ -1,10 +1,11 @@
 import BlogDetails from '@/Components/BlogDetails/page';
 import React from 'react';
 
-const BlogsDetailsPage = () => {
+const BlogsDetailsPage = ({ params }) => {
+    const blogId = params.id
     return (
         <div>
-            <BlogDetails/>
+            <BlogDetails blogId = {blogId} />
         </div>
     );
 };
