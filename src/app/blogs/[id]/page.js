@@ -1,11 +1,13 @@
 import BlogDetails from '@/Components/BlogDetails/page';
 import React from 'react';
 
-const BlogsDetailsPage = ({ params }) => {
-    const blogId = params.id
+const BlogsDetailsPage = async({ params }) => {
+    const res = await fetch(`http://localhost:5000/blogs/${params.id}`)
+    const blogs = await res.json()
+    console.log(blogs)
     return (
         <div>
-            <BlogDetails blogId = {blogId} />
+            <BlogDetails blogs = {blogs} />
         </div>
     );
 };
