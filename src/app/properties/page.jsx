@@ -8,6 +8,7 @@ import PropertiesCard from '@/Components/PropertiesCard/PropertiesCard';
 
 export default function BuildingCard({ initialCards = [] }) {
   const [searchQuery, setSearchQuery] = useState('');
+  const [isGrid, setIsGrid] = useState(false);
   const [cards, setCards] = useState(initialCards);
   // filter with listing status
   const [showAll, setShowAll] = useState(true);
@@ -138,11 +139,17 @@ export default function BuildingCard({ initialCards = [] }) {
           </div>
         </div>
         <div className="col-span-9">
-          <div>
+          <div className="flex justify-between">
             <h4 className="text-xl font-semibold">
               Show for All Properties :{filteredCards.length}
             </h4>
+            {!isGrid ? (
+              <button onClick={() => setIsGrid(true)}>Grid View</button>
+            ) : (
+              <button onClick={() => setIsGrid(false)}>List view</button>
+            )}
           </div>
+          {!isGrid ? <p>list</p> : <p>grid</p>}
           <div className="grid lg:grid-cols-2 gap-5 lg:px-5">
             {filteredCards.map(card => (
               <PropertiesCard key={card.id} card={card}></PropertiesCard>
