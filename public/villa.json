@@ -12,9 +12,11 @@
       "longitude": -118.2437
     },
     "price": 1200000,
-    "squareFootage": 1500,
+    "squareFootage": 1800,
     "easement": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
-    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar.",
+    "bedroom": 5,
+    "bathroom": 3,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. ",
     "propertyImages": [
       "https://i.ibb.co/qpc2m6q/villa-1-1.jpg",
       "https://i.ibb.co/Dff0Zh6/villa-1-2.jpg",
@@ -25,7 +27,7 @@
       "included": true,
       "spaces": 300
     },
-    "yearBuilt": 2018,
+    "yearBuilt": 2016,
     "propertyStatus": "available",
     "ownerInformation": {
       "name": "John Smith",
@@ -46,8 +48,10 @@
       "longitude": -122.4194
     },
     "price": 950000,
-    "squareFootage": 1200,
+    "squareFootage": 1600,
     "easement": ["Private Beach Access", "Sun Deck", "Oceanfront Views"],
+    "bedroom": 4,
+    "bathroom": 3,
     "description": "A stunning villa with breathtaking views and luxurious amenities with 4-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar.",
     "propertyImages": [
       "https://i.ibb.co/7Jr3cGg/villa-2-1.jpg",
@@ -59,7 +63,7 @@
       "included": false,
       "spaces": 200
     },
-    "yearBuilt": 2018,
+    "yearBuilt": 2017,
     "propertyStatus": "rent",
     "ownerInformation": {
       "name": "Jane Smith",
@@ -80,9 +84,11 @@
       "longitude": -117.1611
     },
     "price": 1200000,
-    "squareFootage": 1300,
-    "easement": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
-    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar.",
+    "squareFootage": 1500,
+    "easement": ["Swimming Pool", "Spa", "Mountain View"],
+    "bedroom": 5,
+    "bathroom": 4,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar.",
     "propertyImages": [
       "https://i.ibb.co/0mcyKFd/villa-3-1.jpg",
       "https://i.ibb.co/SmKhWxv/villa-3-2.jpg",
@@ -93,7 +99,7 @@
       "included": true,
       "spaces": 150
     },
-    "yearBuilt": 2018,
+    "yearBuilt": 2016,
     "propertyStatus": "sale",
     "ownerInformation": {
       "name": "John Doe",
@@ -114,9 +120,11 @@
       "longitude": -121.4944
     },
     "price": 1200000,
-    "squareFootage": 1200,
-    "easement": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
-    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar.",
+    "squareFootage": 1700,
+    "easement": ["Swimming Pool", "Garden", "Mountain View"],
+    "bedroom": 5,
+    "bathroom": 4,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views.",
     "propertyImages": [
       "https://i.ibb.co/fYQ5Gs4/villa-4-1.jpg",
       "https://i.ibb.co/Zmt3Xx8/villa-4-2.jpg",
@@ -127,7 +135,7 @@
       "included": false,
       "spaces": 200
     },
-    "yearBuilt": 2018,
+    "yearBuilt": 2017,
     "propertyStatus": "sale",
     "ownerInformation": {
       "name": "John Sena",
@@ -149,8 +157,10 @@
     },
     "price": 1200000,
     "squareFootage": 1600,
-    "easement": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
-    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar.",
+    "easement": ["Swimming Pool", "Garden", "Spa"],
+    "bedroom": 5,
+    "bathroom": 4,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 5-bed with a loft, 4-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace.",
     "propertyImages": [
       "https://i.ibb.co/b2j8fpB/villa-5-1.jpg",
       "https://i.ibb.co/vJNpLc3/villa-5-2.jpg",
@@ -187,9 +197,11 @@
       "longitude": -119.7726
     },
     "price": 1200000,
-    "squareFootage": 1300,
-    "easement": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
-    "description": "A stunning villa with breathtaking views and luxurious amenities with 3-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar.",
+    "squareFootage": 1800,
+    "easement": ["Swimming Pool", "Garden", "Spa"],
+    "bedroom": 3,
+    "bathroom": 3,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 3-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining.In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar.",
     "propertyImages": [
       "https://i.ibb.co/Wv0Bncb/villa-6-1.jpg",
       "https://i.ibb.co/g4jP40y/villa-6-2.jpg",
@@ -200,7 +212,7 @@
       "included": true,
       "spaces": 200
     },
-    "yearBuilt": 2018,
+    "yearBuilt": 2020,
     "propertyStatus": "sale",
     "ownerInformation": {
       "name": "Robert Rechart",
@@ -221,9 +233,11 @@
       "longitude": -118.1937
     },
     "price": 1200000,
-    "squareFootage": 1100,
+    "squareFootage": 1800,
     "easement": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
-    "description": "A stunning villa with breathtaking views and luxurious amenities with 4-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar.",
+    "bedroom": 4,
+    "bathroom": 3,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 4-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. ",
     "propertyImages": [
       "https://i.ibb.co/Ss2gpjP/villa-7-1.jpg",
       "https://i.ibb.co/L6FtQ5q/villa-7-2.jpg",
@@ -234,7 +248,7 @@
       "included": true,
       "spaces": 200
     },
-    "yearBuilt": 2018,
+    "yearBuilt": 2019,
     "propertyStatus": "rent",
     "ownerInformation": {
       "name": "Rich Doe",
@@ -255,9 +269,11 @@
       "longitude": -118.4814
     },
     "price": 1200000,
-    "squareFootage": 1150,
+    "squareFootage": 1400,
     "easement": ["Swimming Pool", "Garden", "Spa", "Mountain View"],
-    "description": "A stunning villa with breathtaking views and luxurious amenities with 4-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining. The living room and dining room have vaulted ceilings and a beautiful fireplace. You will love spending time on the deck taking in the beautiful views. In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar.",
+    "bedroom": 4,
+    "bathroom": 3,
+    "description": "A stunning villa with breathtaking views and luxurious amenities with 4-bed with a loft, 3-bath home in the gated community of The Hideout has it all. From the open floor plan to the abundance of light from the windows, this home is perfect for entertaining.In the kitchen, you'll find stainless steel appliances and a tile backsplash, as well as a breakfast bar.",
     "propertyImages": [
       "https://i.ibb.co/RcmQ9wG/villa-8-1.jpg",
       "https://i.ibb.co/4R0TQxd/villa-8-2.jpg",
