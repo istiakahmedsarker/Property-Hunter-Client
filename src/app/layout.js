@@ -2,8 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/Components/Shared/Navbar/Navbar'
 import Footer from '@/Components/Shared/Footer/Footer'
-import Banner from '@/Components/Banner/Banner'
-import AuthProvider from '@/Providers/AuthProvider'
+
 
 
 
@@ -18,13 +17,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
       <body className={inter.className}>
-        <AuthProvider>
-          <Navbar />
-          {children}
-          <Footer></Footer>
-        </AuthProvider>
-      </body>
+        <Navbar />
+        {children}
+        
 
+        <Footer></Footer>
+        </body>
     </html>
   );
 }

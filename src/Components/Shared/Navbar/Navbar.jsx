@@ -54,7 +54,7 @@ const Navbar = () => {
   );
 
   return (
-    <div>
+    <div >
       <div className="navbar py-4 bg-gray-50 text-gray-700">
         <div className="navbar-start">
           <div className="dropdown">

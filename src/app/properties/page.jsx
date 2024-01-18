@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import getAllCard from '../../../lib/getAllCard';
 import { useEffect, useState } from 'react';
-import { CiSearch } from 'react-icons/ci';
+// import { CiSearch } from 'react-icons/ci';
 import PropertiesCard from '@/Components/PropertiesCard/PropertiesCard';
 
 export default function BuildingCard({ initialCards = [] }) {
