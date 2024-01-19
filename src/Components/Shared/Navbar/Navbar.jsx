@@ -33,8 +33,6 @@ const Navbar = () => {
           className={` ${
             pathname === "/blog" ? "text-[#eb6753]" : "text-gray-700"
           } no-underline`}
-          className={`link ${pathname === "/blog" ? "text-[#eb6753]" : ""
-            } no-underline`}
           href={"/blogs"}
         >
           Blogs

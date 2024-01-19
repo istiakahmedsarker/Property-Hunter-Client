@@ -5,15 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "json-server": "json-server --watch blogs.json --port 5000",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "aos": "^2.3.4",
     "aos": "^3.0.0-beta.6",
     "axios": "^1.6.5",
-    "firebase": "^10.7.1",
+    "firebase": "^10.7.2",
     "json-server": "^1.0.0-alpha.21",
     "next": "14.0.4",
     "react": "^18",

@@ -52,7 +52,7 @@ const Login = () => {
         <div className="text-center mt-6">
           <div className="space-y-6">
             <p>
-              Don't have an account?{" "}
+              Dont have an account?{" "}
               <a href="#" className="text-[#eb6753]">
                 Register
               </a>
