@@ -5,6 +5,7 @@ import getAllCard from '../../../lib/getAllCard';
 import { useEffect, useState } from 'react';
 import { CiSearch } from 'react-icons/ci';
 import PropertiesCard from '@/Components/PropertiesCard/PropertiesCard';
+import PropertiesCardList from '@/Components/PropertiesCard/PropertiesCardList';
 
 export default function BuildingCard({ initialCards = [] }) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -29,15 +30,16 @@ export default function BuildingCard({ initialCards = [] }) {
     };
     fetchCards();
   }, []);
+  console.log(cards);
   const filteredCards = cards?.filter(card => {
-    const lowerCaseTitle = card.title.toLowerCase();
+    const lowerCaseTitle = card.propertyTitle.toLowerCase();
     const lowerCaseSearchQuery = searchQuery.toLowerCase();
     const isTitleMatch = lowerCaseTitle.includes(lowerCaseSearchQuery);
 
     // Apply listing status filters
     if (showAll) return isTitleMatch;
-    if (showBuy && card.status === 'buy') return isTitleMatch;
-    if (showRent && card.status === 'rent') return isTitleMatch;
+    if (showBuy && card.propertyStatus === 'sale') return isTitleMatch;
+    if (showRent && card.propertyStatus === 'rent') return isTitleMatch;
 
     // Apply property type filters
     const isPropertyTypeMatch =
@@ -45,12 +47,13 @@ export default function BuildingCard({ initialCards = [] }) {
       // (showHouse && card.propertyType === 'house')
 
       (showApartment && card.propertyType === 'apartment') ||
-      (showBuilding && card.propertyType === 'building');
+      (showBuilding && card.propertyType === 'villa');
     // ||(showOffice && card.propertyType === 'office');
 
     return isTitleMatch && isPropertyTypeMatch;
   });
-  console.log(cards);
+
+  console.log(filteredCards);
   return (
     <div className="w-11/12 mx-auto">
       <div className="my-4">
@@ -88,7 +91,7 @@ export default function BuildingCard({ initialCards = [] }) {
                   checked={showBuy}
                   onChange={() => setShowBuy(!showBuy)}
                 />
-                Buy
+                For Sale
               </label>
               <label>
                 <input
@@ -96,7 +99,7 @@ export default function BuildingCard({ initialCards = [] }) {
                   checked={showRent}
                   onChange={() => setShowRent(!showRent)}
                 />
-                Rent
+                For Rent
               </label>
             </div>
           </div>
@@ -149,12 +152,22 @@ export default function BuildingCard({ initialCards = [] }) {
               <button onClick={() => setIsGrid(false)}>List view</button>
             )}
           </div>
-          {!isGrid ? <p>list</p> : <p>grid</p>}
-          <div className="grid lg:grid-cols-2 gap-5 lg:px-5">
-            {filteredCards.map(card => (
-              <PropertiesCard key={card.id} card={card}></PropertiesCard>
-            ))}
-          </div>
+          {!isGrid ? (
+            <div className="grid lg:grid-cols-1 gap-5 lg:px-5">
+              {filteredCards.map(card => (
+                <PropertiesCardList
+                  key={card.id}
+                  card={card}
+                ></PropertiesCardList>
+              ))}
+            </div>
+          ) : (
+            <div className="grid lg:grid-cols-2 gap-5 lg:px-5">
+              {filteredCards.map(card => (
+                <PropertiesCard key={card.id} card={card}></PropertiesCard>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
