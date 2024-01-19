@@ -35,10 +35,10 @@ const BlogComments = () => {
     commentPromise
       .then(response => {
         // Additional actions after comment submission if needed
-        console.log('Comment submitted successfully:', response);
+        // console.log('Comment submitted successfully:', response);
       })
       .catch(error => {
-        console.error('Error submitting comment:', error);
+        // console.error('Error submitting comment:', error);
       });
   };
 

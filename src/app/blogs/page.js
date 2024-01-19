@@ -3,9 +3,10 @@ import BlogPost from '@/Components/BlogPost/BlogPost';
 import React from 'react';
 
 const blogs = async () => {
-    const res = await fetch('http://localhost:5000/blogs');
-    const blogs = await res.json()
-    console.log()
+    const res = await fetch('https://property-hunter-server.vercel.app/api/v1/blogs');
+    const blogsData = await res.json()
+    const blogs = blogsData.data.blogs
+    // console.log(blogs)
     return (
         <div>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 ml-36">
@@ -13,7 +14,7 @@ const blogs = async () => {
                 <div className="col-span-2">
                     <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 '>
                         {
-                            blogs[0]?.map((blog) => <BlogCard key={blog.id} blog={blog} />)
+                            blogs.map((blog) => <BlogCard key={blog._id} blog={blog} />)
                         }
                     </div>
                 </div>

@@ -28,7 +28,7 @@ const Testimonials = () => {
     return 2;
   };
 
-  console.log(reviews);
+  // console.log(reviews);
   return (
     <div className="bg-[#fff7f5] bg-[url('https://res.cloudinary.com/debqyv4o6/image/upload/v1705426954/Vector_11_skdxn1.png')] bg-cover bg-right-bottom">
       <div className="px-4 md:px-0 max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto py-6 md:py-8 lg:py-16 ">

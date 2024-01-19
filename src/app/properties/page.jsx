@@ -30,7 +30,7 @@ export default function BuildingCard({ initialCards = [] }) {
     };
     fetchCards();
   }, []);
-  console.log(cards);
+  // console.log(cards);
   const filteredCards = cards?.filter(card => {
     const lowerCaseTitle = card.propertyTitle.toLowerCase();
     const lowerCaseSearchQuery = searchQuery.toLowerCase();
@@ -53,7 +53,7 @@ export default function BuildingCard({ initialCards = [] }) {
     return isTitleMatch && isPropertyTypeMatch;
   });
 
-  console.log(filteredCards);
+  // console.log(filteredCards);
   return (
     <div className="w-11/12 mx-auto">
       <div className="my-4">
@@ -153,13 +153,13 @@ export default function BuildingCard({ initialCards = [] }) {
             )}
           </div>
           {!isGrid ? (
-            <div className="grid lg:grid-cols-1 gap-5 lg:px-5">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 lg:px-5">
               {filteredCards.map(card => (
                 <PropertiesCard key={card.id} card={card}></PropertiesCard>
               ))}
             </div>
           ) : (
-            <div className="grid lg:grid-cols-2 gap-5 lg:px-5 my-6">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  gap-5 lg:px-5 my-6">
               {filteredCards.map(card => (
                 <PropertiesCard key={card.id} card={card}></PropertiesCard>
               ))}
