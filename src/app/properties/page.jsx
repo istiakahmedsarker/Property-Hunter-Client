@@ -162,7 +162,7 @@ export default function BuildingCard({ initialCards = [] }) {
               ))}
             </div>
           ) : (
-            <div className="grid lg:grid-cols-2 gap-5 lg:px-5">
+            <div className="grid lg:grid-cols-2 gap-5 lg:px-5 my-6">
               {filteredCards.map(card => (
                 <PropertiesCard key={card.id} card={card}></PropertiesCard>
               ))}
