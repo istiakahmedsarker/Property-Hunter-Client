@@ -155,10 +155,7 @@ export default function BuildingCard({ initialCards = [] }) {
           {!isGrid ? (
             <div className="grid lg:grid-cols-1 gap-5 lg:px-5">
               {filteredCards.map(card => (
-                <PropertiesCardList
-                  key={card.id}
-                  card={card}
-                ></PropertiesCardList>
+                <PropertiesCard key={card.id} card={card}></PropertiesCard>
               ))}
             </div>
           ) : (
