@@ -30,8 +30,9 @@ export default function BuildingCard({ initialCards = [] }) {
     };
     fetchCards();
   }, []);
-  console.log(cards);
-  const filteredCards = cards?.filter(card => {
+  // console.log(cards.data);
+  const propertiesCards = cards?.data?.properties || [];
+  const filteredCards = propertiesCards.filter(card => {
     const lowerCaseTitle = card.propertyTitle.toLowerCase();
     const lowerCaseSearchQuery = searchQuery.toLowerCase();
     const isTitleMatch = lowerCaseTitle.includes(lowerCaseSearchQuery);
@@ -144,22 +145,22 @@ export default function BuildingCard({ initialCards = [] }) {
         <div className="col-span-9">
           <div className="flex justify-between">
             <h4 className="text-xl font-semibold">
-              Show for All Properties :{filteredCards.length}
+              Show for All Properties :{filteredCards.length || 0}
             </h4>
             {!isGrid ? (
-              <button onClick={() => setIsGrid(true)}>Grid View</button>
+              <button onClick={() => setIsGrid(true)}>List view</button>
             ) : (
-              <button onClick={() => setIsGrid(false)}>List view</button>
+              <button onClick={() => setIsGrid(false)}>Grid View</button>
             )}
           </div>
           {!isGrid ? (
-            <div className="grid lg:grid-cols-1 gap-5 lg:px-5">
+            <div className="grid lg:grid-cols-2 gap-5 lg:px-5">
               {filteredCards.map(card => (
                 <PropertiesCard key={card.id} card={card}></PropertiesCard>
               ))}
             </div>
           ) : (
-            <div className="grid lg:grid-cols-2 gap-5 lg:px-5 my-6">
+            <div className="grid lg:grid-cols-1 gap-5 lg:px-5 my-6">
               {filteredCards.map(card => (
                 <PropertiesCard key={card.id} card={card}></PropertiesCard>
               ))}
